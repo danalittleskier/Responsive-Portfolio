@@ -8,15 +8,7 @@ body {
     line-height: 150%;
     
 }
-@media only screen and (max-width: 980px) {
-    .container {background: #bbb}
-}
-@media only screen and (max-width: 768px) {
-    .container {background: rgb(25, 90, 148)}
-}
-@media only screen and (max-width: 640px) {
-    .container {background: #bbb}
-}
+
 .headerdiv {
     width: 960px;
     margin: 0 auto;
@@ -136,4 +128,28 @@ h2 {
     text-align: center;
     color: #bbb;
     border-top: 5px solid #4aaaa5;
+}
+@media only screen and (max-width: 980px) {
+    #about-me,
+    #contact,
+    #portfolio {
+        width: 980px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #about-me,
+    #contact,
+    #portfolio {
+        width: 768px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    #about-me,
+    #contact,
+    #portfolio {
+        width: 640px;
+    }
+    header {
+        position: static;
+    }
 }
