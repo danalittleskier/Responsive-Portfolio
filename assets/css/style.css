@@ -165,6 +165,10 @@ h2 {
         clear: both;
         width: 100%;
     }
+    .imagecontainer {
+        clear: both;
+        width: 100%;
+    }
     .headerdiv {
         position: static;
     }
