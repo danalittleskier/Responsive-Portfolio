@@ -145,7 +145,7 @@ h2 {
         width: 768px;
     }
     .headerdiv {
-        width: 768;
+        width: 768px;
     }
 }
 @media only screen and (max-width: 640px) {
@@ -155,9 +155,14 @@ h2 {
         width: 640px;
     }
     h1 {
-        width: 100%;
+        width: 640px;
     }
     nav {
+        width: 640px;
+    }
+
+    .aboutmecontainer {
+        clear: both;
         width: 100%;
     }
     .headerdiv {
