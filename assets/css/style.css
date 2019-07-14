@@ -23,6 +23,7 @@ h1 {
     font-size: 28px;
     float: left;
     margin-bottom: 0;
+    margin-left: 20px;
 
 }
 nav {
@@ -61,8 +62,8 @@ a:visited {
 #portfolio {
     background-color: #ffffff;
     height: 100%;
-    padding-top: 10px;
-    margin: 30px auto;
+    padding: 10px;
+    margin: 30px;
 }
 h2 {
     color: #4aaaa5;
